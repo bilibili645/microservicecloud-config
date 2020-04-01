@@ -6,7 +6,7 @@ spring:
 server:
   port: 8001
 spring:
-  profiles: dev  #开发环境
+  profiles: dev  
   application:
     name: microservicecloud-config-dept-client
    datasource:
@@ -38,7 +38,7 @@ info:
 server:
   port: 8002
 spring:
-  profiles: test  #开发环境
+  profiles: test  
   application:
     name: microservicecloud-config-dept-client
    datasource:
